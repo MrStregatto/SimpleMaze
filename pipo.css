@@ -1,0 +1,21 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: manipulation;
+    background: #eeabab;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    display: block;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    background-color: rgb(0, 0, 0);
+}
